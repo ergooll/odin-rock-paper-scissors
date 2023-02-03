@@ -7,20 +7,29 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #daf3fe;
+    background-image: url("./img/bg-pattern-03.png");
     color: #2a3236;
+    margin: 0;
+    min-width: min-content;
 }
 
 h1 {
     font-weight: 600;
     font-size: 64px;
-    padding: 24px 64px;
-    border: 2px solid #2a3236;
-    border-radius: 16px;
+    padding: 48px;
+    background-image: url("./img/bg-pattern-04.png");
+    border-bottom: 1px solid #2a3236;
+    text-align: center;
+    margin: 0;
 }
 
-h1:hover {
-    background-color: #666b6e;
-    transition-duration: 1s;
+.header {
+    width: 100%;
+}
+
+.intro-text {
+    padding-top: 32px;
+    font-size: 18px;
 }
 
 .footer {
