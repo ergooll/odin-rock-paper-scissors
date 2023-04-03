@@ -30,6 +30,8 @@ h1 {
 .intro-text {
     padding-top: 32px;
     font-size: 18px;
+    text-align: center;
+    margin: 8px;
 }
 
 .footer {
@@ -41,4 +43,17 @@ h1 {
     padding: 16px;
     text-align: center;
     color: #E5E7EB;
+}
+
+button {
+    background-color: #E5E7EB;
+    padding: 12px 32px;
+    border: #1F2937 solid;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #93dab6;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
