@@ -14,18 +14,37 @@
     <div class="header">
         <h1>Rock Paper Scissors</h1>
     </div>
+    
+    <div class="game">
+        <div class="choose-text">
+            <div>Choose rock, paper or scissors</div>
+            <div>Best of 5</div>
+        </div>
 
-    <div class="intro-text">
-        <p>This is a simple rock paper scissors game.</p>
+        <div class="playerSection">
+            <button class="choice rock" id="rock"><img src="img/rock.png" alt="Rock"></button>
+            <button class="choice paper" id="paper"><img src="img/paper.png" alt="Paper"></button>
+            <button class="choice scissors" id="scissors"><img src="img/scissors.png" alt="Scissors"></button>
+        </div>
+
+        <div class="selections">
+            <div class="playerChoice"></div>
+            <div class="computerChoice"></div>
+            <div class="roundWinner"></div>
+        </div>
+
+        <div class="score">
+            <div class="playerScore">Player Wins: 0</div>
+            <div class="computerScore">Computer Wins: 0</div>
+            <div class="ties">Ties: 0</div>
+        </div>
+
+        <div class="winner-div">
+            <div class="winner"></div>
+            <button class="reset" onclick="resetGame()">Play Again</button>
+        </div>
+
     </div>
-
-    <div class="choices">
-        <div class="choice rock">ROCK</div>
-        <div class="choice paper">PAPER</div>
-        <div class="choice scissors">SCISSORS</div>
-    </div>
-
-    <div class="result"></div>
 
     <div class="footer">Made by Ergo Oll for The Odin Project 2023.</div>
 </body>
