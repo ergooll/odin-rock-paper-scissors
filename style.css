@@ -173,3 +173,19 @@ h1 {
     border: 1px solid rgba(80, 51, 88, 0.31);
     transition: 0.5s;
 }
+
+.src-code {
+    text-decoration: none;
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.src-code:visited {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.src-code:hover {
+    color: #ffffff;
+}
